@@ -33,10 +33,10 @@ case $1 in
         systemctl start ssh
         ;;
     4)
-        echo "chao";
+        echo "Has salido";
         ;;
     *) 
-        echo "$opc es una opcion invalida. Es tan dificil?";
+        echo "$opc Es una opcion invalida, selecciona el número 1, 2, 3 o 4";
         ;;
 
 esac
